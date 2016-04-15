@@ -250,7 +250,7 @@ header {
 }
 .tm_navbar .nav li a {
 	text-decoration: none;
-	text-transform: lowercase;
+	text-transform: capitalize;
 	color: #ffffff;
 	font-family: 'Georgia', serif;
 	font-size: 22px;
