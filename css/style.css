@@ -1,6 +1,6 @@
 /*------ template stylization ------*/
 body {
-	background:#2C5197 ;
+	background: #056693 ;
 }
 /*----------- Back to top --------------*/
 #toTop {
@@ -25,12 +25,12 @@ body {
 .row_1 {
 	text-align: center;
 	padding: 30px 0;
-	background: url(../img/pattern2.jpg) 0 0 repeat;
+	background: #056693 ;
 }
 .row_2 {
 	text-align: center;
 	padding: 22px 0 0;
-	background: url(../img/patternblue.jpg) 0 0 repeat;
+	background: #056693 ;
 }
 .row_3 {
 	padding: 43px 0 13px;
@@ -194,7 +194,7 @@ h3 {
 }
 /*------ header ------- */
 header {
-	background:#2C5197 ;
+	background: #056693 ;
 	text-align: center;
 }
 /*-------- Logo -------- */
@@ -205,7 +205,7 @@ header {
 	margin: 0;
 	text-align: center;
 	padding: 0;
-	margin: 48px auto 40px;
+	margin: 68px auto 60px;
 }
 .navbar-brand_ img {
 	max-width: 100%;
@@ -399,13 +399,9 @@ header {
 }
 /*--- header end ------*/
 /*------ content ------- */
-@font-face{
-	font-family:customfont;
-	src:url(ArcoPerpetuo-Regular.ttf);
-}
 .title1 {
-	color:#2C5197;
-	font-family: customfont;
+	color: #ffffff;
+	font-family: 'Georgia', serif;
 	font-size: 36px;
 	line-height: 38px;
 	font-weight: normal;
@@ -413,8 +409,8 @@ header {
 }
 .title2 {
 	letter-spacing: 0;
-	color: #000000;
-	font-family: customfont;
+	color: #939598;
+	font-family: 'Georgia', serif;
 	font-size: 17px;
 	line-height: 26px;
 	font-weight: normal;
