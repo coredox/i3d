@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>404</title>
+    <title>3D Modeling</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name = "format-detection" content = "telephone=no" />
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
     <meta name="author" content="heisGarvit@gmail.com">
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/style.css">
-
-	<script src="js/jquery.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Snippet' rel='stylesheet' type='text/css'>
+	   <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
     <script src="js/superfish.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
@@ -20,6 +21,12 @@
     <script src="js/jquery.ui.totop.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/jquery.equalheights.js"></script>
+
+
+    <script src='js/camera.js'></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
 
 
 
@@ -41,8 +48,8 @@
           <div class="container">
             <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
                 <ul class="nav sf-menu">
-                  <li><a href="/">home</a></li>
-                  <li><a href="/#services">services</a></li>
+                  <li><a href="index.html">home</a></li>
+                  <li class="active"><a href="index.html#services">services</a></li>
                   <li><a href="profile.html">company profile</a></li>
                   <li><a href="reach.html">Reach Us</a></li>
                 </ul>
@@ -52,32 +59,39 @@
 </header>
 <!--==============================content=================================-->
 <div id="content">
-    <!--==============================row10=================================-->
-    <div class="row_10">
+    <!--==============================row5=================================-->
+    <div class="row_5">
         <div class="container">
-          <div class="row block-404">
-            <div class="col-lg-7 col-md-7 col-sm-7">
-                <figure class="img-polaroid"><img src="img/404.jpg" alt=""></figure>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 forminfo">
-                <div>
-                    <h2 class="title404_1">Sorry!</h2>
-                    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-                    <h2 class="title404_1">Our Services</h2>
-                    <ul class="list2">
-                        <li><a href="scan.html">3D SCANNING</a></li>
-                        <li><a href="model.html">3D MODELING</a></li>
-                        <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
-                        <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
-                        <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
-                        <li><a href="tool.html">TOOL DESIGN</a></li>
-                        <li><a href="concept.html">CONCEPT DESIGN</a></li>
-                        <li><a href="cnc.html">CNC JOB WORK</a></li>
-                        <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
-                    </ul>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7 reserve_table" style="text-align:justify;">
+                    <h2>3D Scanning</h2>
+                    <p style=" font-family: 'Snippet', sans-serif;">Our utilitarian 3D laser scanning is used by many on regular basis. Our 3D scanning devices are technically advanced. Three dimensional models which may be used for different applications are generated with the help of our 3D Scanning Services.</p>
+                    <p style=" font-family: 'Snippet', sans-serif;">We have a team of engineers who are working on different software in the field of reverse engineering (Class A & Class B) & CAD Like CATIA, Imageware, UG NX, Solid Works etc. In our infrastructure, we have Blue Light Scanner from STEINBICHLER with an accuracy of 10 mocrons per meter. Additionally, Photogrammetry System  for greater accuracy is also available.</p><BR>
+                    <figure class="img-polaroid"><img src="img/ss1.jpg" alt=""></figure>
+                    <figure class="img-polaroid"><img src="img/ss2.jpg" alt=""></figure>
+                    <figure class="img-polaroid"><img src="img/ss3.jpg" alt=""></figure>
+                    <figure class="img-polaroid"><img src="img/ss4.jpg" alt=""></figure>
+                    <figure class="img-polaroid"><img src="img/ss5.jpg" alt=""></figure>
+                  </div>
+
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4">
+                  <h2 class="pad_top1">Services</h2>
+                  <hr class="line2">
+                  <ul class="list2">
+                      <li><a href="scan.html">3D SCANNING</a></li>
+                      <li><a href="model.html">3D MODELING</a></li>
+                      <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
+                      <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
+                      <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
+                      <li><a href="tool.html">TOOL DESIGN</a></li>
+                      <li><a href="concept.html">CONCEPT DESIGN</a></li>
+                      <li><a href="cnc.html">CNC JOB WORK</a></li>
+                  </ul>
+                  <hr class="line2">
+                  <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
                 </div>
+
             </div>
-          </div>
         </div>
     </div>
 </div>
@@ -97,7 +111,7 @@
                 <a class="smalllogo2 logo" href="index.html"><img src="img/logofooter.png" alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <p class="footerpriv">&copy; 2016 &bull; Innovative 3D Solutions</p>
+                <p class="footerpriv">&copy; 2016 &bull; <a class="privacylink" href="index.html">Innovative 3D Solutions</a></p>
             </div>
         </div>
     </div>

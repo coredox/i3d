@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <title>Gallery</title>
-    <meta charset="utf-8">    
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <meta name = "format-detection" content = "telephone=no" />
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
-    <meta name="author" content="Your name">
+    <meta name="author" content="heisGarvit@gmail.com">
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/touchTouch.css">
-    
+
 	<script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
     <script src="js/superfish.js"></script>
@@ -23,11 +23,11 @@
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/jquery.equalheights.js"></script>
     <script  src="js/touchTouch.jquery.js"></script>
-    
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script>
-    
-    $(window).load(function() {  
+
+    $(window).load(function() {
     var $container = $('#container');
     //Run to initialise column sizes
     updateSize();
@@ -37,7 +37,7 @@
 
         $container.isotope({
             // options
-            itemSelector : '.element',	
+            itemSelector : '.element',
             layoutMode : 'masonry',
             transformsEnabled: true,
             columnWidth: function( containerWidth ) {
@@ -46,13 +46,13 @@
               }
         });
     });
-    
+
 	    // update columnWidth on window resize
-    $(window).smartresize(function(){  
+    $(window).smartresize(function(){
         updateSize();
         $container.isotope( 'reLayout' );
     });
-	
+
     //Set item size
     function updateSize() {
         $browserWidth = $container.width();
@@ -82,11 +82,11 @@
         $itemWidth = Math.floor($itemWidth);
 
         $(".element").each(function(index){
-            $(this).css({"width":$itemWidth+"px"});             
+            $(this).css({"width":$itemWidth+"px"});
         });
-			
 
-    
+
+
 	  var $optionSets = $('#options .option-set'),
 	      $optionLinks = $optionSets.find('a');
 
@@ -114,25 +114,25 @@
 	      // otherwise, apply new options
 	      $container.isotope( options );
 	    }
-	    
+
 	    return false;
-	  });		
+	  });
 
     };
 
         // Initialize the gallery
         $('.thumb').touchTouch();
-    
+
     });
-    
+
   </script>
-  
-    
-    
+
+
+
     <!--[if lt IE 9]>
-    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
     <link rel="stylesheet" href="assets/tm/css/tm_docs.css" type="text/css" media="screen">
-    <script src="assets/assets/js/html5shiv.js"></script> 
+    <script src="assets/assets/js/html5shiv.js"></script>
     <script src="assets/assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
@@ -147,22 +147,11 @@
           <div class="container">
             <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
                 <ul class="nav sf-menu">
-                  <li><a href="index.html">home</a>
-                    <ul>
-                      <li><img src="img/arrowup.png" alt=""><a href="#">info</a></li>
-                      <li><a href="#">profile</a></li>
-                      <li><a class="last" href="#">news</a>
-                        <ul>
-                           <li><a href="#">fresh</a></li>
-                           <li><a class="last" href="#">archive</a></li>                       
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="index-1.html">about me</a></li>
-                  <li class="active"><a href="index-2.html">gallery</a></li>
-                  <li><a href="index-3.html">links</a></li>
-                  <li><a href="index-4.html">location</a></li>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="index.html#services">services</a></li>
+                  <li class="active"><a href="gallery.html">gallery</a></li>
+                  <li><a href="profile.html">company profile</a></li>
+                  <li><a href="reach.html">Reach Us</a></li>
                 </ul>
             </nav>
           </div>
@@ -179,21 +168,22 @@
                   <div id="options" class="clearfix">
                       <ul id="filters" class="pagination option-set clearfix" data-option-key="filter">
                         <li><a href="#filter" data-option-value="*" class="selected">Show all</a></li>
-                        <li><a href="#filter" data-option-value=".people">people</a></li>
-                        <li><a href="#filter" data-option-value=".macro ">macro</a></li>
-                        <li><a href="#filter" data-option-value=".nature">nature</a></li>
-                        <li><a href="#filter" data-option-value=".night">night</a></li>
-                        <li><a href="#filter" data-option-value=".panoramic">panoramic</a></li>
-                        <li><a href="#filter" data-option-value=".sports">sports</a></li>
+                        <li><a href="#filter" data-option-value=".scanning">scanning</a></li>
+                        <li><a href="#filter" data-option-value=".modeling">modeling</a></li>
+                        <li><a href="#filter" data-option-value=".cnc">CNC Job work</a></li>
+                        <li><a href="#filter" data-option-value=".inspection">inspection</a></li>
+                        <li><a href="#filter" data-option-value=".reverse">reverse engineering</a></li>
+                        <li><a href="#filter" data-option-value=".surfacing">surfacing</a></li>
+                        <li><a href="#filter" data-option-value=".tool">tool desgin</a></li>
                       </ul>
                   </div><!-- #options -->
                   <div class="containerExtra">
                   <div id="container" class="clearfix">
-                   
-                    <div class="element transition people" data-category="transition">
-                    	<a href="img/page3_bigimg1.jpg" class="thumb"><figure class="img-polaroid"><img src="img/page3_img1.jpg" alt=""></figure></a><span class="description">quia non numquam</span>
+
+                    <div class="element transition scanning" data-category="transition">
+                    	<a href="sb1.jpg" class="thumb"><figure class="img-polaroid"><img src="img/ss1.jpg" alt=""></figure></a><span class="description">quia non numquam</span>
                     </div>
-                    <div class="element transition people" data-category="transition"> 
+                    <div class="element transition people" data-category="transition">
                     	<a href="img/page3_bigimg2.jpg" class="thumb"><figure class="img-polaroid"><img src="img/page3_img2.jpg" alt=""></figure></a><span class="description">Sed ut perspicia</span>
                     </div>
                     <div class="element transition macro" data-category="transition">
@@ -246,7 +236,7 @@
                 <a class="smalllogo2 logo" href="index.html"><img src="img/logofooter.png" alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <p class="footerpriv">&copy; 2013 &bull; <a class="privacylink" href="index-5.html">Privacy policy</a></p>
+                <p class="footerpriv">&copy; 2016 &bull; <a class="privacylink" href="index.html">Innovative 3D Solutions</a></p>
             </div>
         </div>
     </div>
