@@ -100,7 +100,7 @@
 						if(!_.form.has('.'+_.invalidCl).length)
 							$.ajax({
 								type: "POST",
-								url:"//formspree.io/mail@innovativei3d.com",
+								url:"//formspree.io/cadcamug@gmail.com",
 								data:{
 									name:_.getValFromLabel($('.name',_.form)),
 									email:_.getValFromLabel($('.email',_.form)),
