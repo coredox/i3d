@@ -97,10 +97,10 @@
 					}
 					,submitFu:function(){
 						_.validateFu(_.labels)
-						if(!_.form.has('.'+_.invalidCl).length)
+						if(!_.form.has('.'+_.invalidCl).length){
 							$.ajax({
 								type: "POST",
-								url:"//formspree.io/cadcamug@gmail.com",
+								url:"http://formspree.io/cadcamug@gmail.com",
 								data:{
 									name:_.getValFromLabel($('.name',_.form)),
 									email:_.getValFromLabel($('.email',_.form)),
@@ -114,6 +114,7 @@
 									_.showFu()
 								}
 							})
+						}
 					},
 					showFu:function(){
 						_.success.slideDown(function(){
