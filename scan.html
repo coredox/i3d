@@ -1,133 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>3D Scanning</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <meta name = "format-detection" content = "telephone=no" />
-    <meta name="description" content="Innovative cad/cam is a solution provider, Design, Reverse egg Class A surfacing, all types of complete 2D & 3D inspection & CAE Services.">
-    <meta name="keywords" content="3d design,3d modelling,3d scanning,cad cam,cadd,engineering services,cae,medical equipment design">
-    <meta name="author" content="heisGarvit@gmail.com">
-    <link rel="stylesheet" href="css/bootstrap.css" >
-    <link rel="stylesheet" href="css/style.css">
-    <style>@font-face {
-      font-family: 'Snippet';
-      font-style: normal;
-      font-weight: 400;
-      src: local('Snippet'), url(//fonts.gstatic.com/s/snippet/v6/bkBpjFHXbzobTARQtiigvA.woff2) format('woff2');
-      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-    }</style>
-   <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/jquery.mobilemenu.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
-    <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="js/jquery.equalheights.js"></script>
+  <title>Innovative 3D Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <meta name = "format-detection" content = "telephone=no" />
+  <meta name="description" content="Innovative cad/cam is a solution provider, Design, Reverse egg Class A surfacing, all types of complete 2D & 3D inspection & CAE Services.">
+  <meta name="keywords" content="3d design,3d modelling,3d scanning,cad cam,cadd,engineering services,cae,medical equipment design">
+  <meta name="author" content="heisGarvit@gmail.com">
+  <link rel="stylesheet" href="css/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/camera.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <style>@font-face {
+    font-family: 'Snippet';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Snippet'), url(fonts/bkBpjFHXbzobTARQtiigvA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  }
+  </style>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+  <script src="js/superfish.js"></script>
+  <script src="js/jquery.mobilemenu.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.ui.totop.js"></script>
+  <script src="js/jquery.touchSwipe.min.js"></script>
+  <script src="js/jquery.equalheights.js"></script>
 
 
-    <script src='js/camera.js'></script>
-    <!--[if (gt IE 9)|!(IE)]><!-->
-        <script src="js/jquery.mobile.customized.min.js"></script>
-    <!--<![endif]-->
+  <script src='js/camera.js'></script>
+  <!--[if (gt IE 9)|!(IE)]><!-->
+  <script src="js/jquery.mobile.customized.min.js"></script>
+  <!--<![endif]-->
 
+  <script>
+  $(window).load( function(){
 
+    jQuery('.camera_wrap').camera();
 
-    <!--[if lt IE 9]>
-    <div style='text-align:center'><a href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="//storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
-    <link rel="stylesheet" href="assets/tm/css/tm_docs.css" type="text/css" media="screen">
-    <script src="assets/assets/js/html5shiv.js"></script>
-    <script src="assets/assets/js/respond.min.js"></script>
+  });
+  </script>
+  <!--[if lt IE 9]>
+  <div style='text-align:center'><a href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="//storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
+  <link rel="stylesheet" href="assets/tm/css/tm_docs.css" type="text/css" media="screen">
+  <script src="assets/assets/js/html5shiv.js"></script>
+  <script src="assets/assets/js/respond.min.js"></script>
   <![endif]-->
 </head>
 
 <body>
-<!--==============================header=================================-->
-<header id="header">
-      <div class="container">
-        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Grill point" src="img/logo.png"></a></h1>
+  <!--==============================header=================================-->
+  <header id="header">
+    <div class="container">
+      <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img alt="Grill point" src="img/logo.png">
+        <p class="title1" style="font-family: 'Snippet', sans-serif;color:white;">Innovative 3D Solutions</p></a></h1>
+
       </div>
       <div class="menuheader">
-          <div class="container">
-            <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
-                <ul class="nav sf-menu">
-                  <li><a href="index.html">home</a></li>
-                  <li class="active"><a href="index.html#services">services</a></li>
-                  <li><a href="med.html">Medical Part Design</a></li>
-                  <li><a href="profile.html">company profile</a></li>
-                  <li><a href="reach.html">Reach Us</a></li>
-                </ul>
-            </nav>
-          </div>
-      </div>
-</header>
-<!--==============================content=================================-->
-<div id="content">
-    <!--==============================row5=================================-->
-    <div class="row_5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7 reserve_table" style="text-align:justify;">
-                    <h2>3D Scanning</h2>
-                    <p style=" font-family: 'Snippet', sans-serif;color:black;">Our utilitarian 3D laser scanning is used by many on regular basis. Our 3D scanning devices are technically advanced. Three dimensional models which may be used for different applications are generated with the help of our 3D Scanning Services.</p>
-                    <p style=" font-family: 'Snippet', sans-serif;color:black;">We have a team of engineers who are working on different software in the field of reverse engineering (Class A & Class B) & CAD Like CATIA, Imageware, UG NX, Solid Works etc. In our infrastructure, we have Blue Light Scanner from STEINBICHLER with an accuracy of 10 mocrons per meter. Additionally, Photogrammetry System  for greater accuracy is also available.</p><BR>
+          <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation">
+            <ul class="nav sf-menu">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="index.html#services">Services</a></li>
+              <li><a href="med.html">Medical Part Design</a></li>
+              <li><a href="profile.html">Company profile</a></li>
+              <li><a href="reach.html">Reach Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--==============================content=================================-->
+    <div id="content">
+      <!--==============================row5=================================-->
+      <div class="row_5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-7 reserve_table" style="text-align:justify;">
+              <h2>3D Scanning</h2>
+              <p style=" font-family: 'Snippet', sans-serif;color:black;">Our utilitarian 3D laser scanning is used by many on regular basis. Our 3D scanning devices are technically advanced. Three dimensional models which may be used for different applications are generated with the help of our 3D Scanning Services.</p>
+              <p style=" font-family: 'Snippet', sans-serif;color:black;">We have a team of engineers who are working on different software in the field of reverse engineering (Class A & Class B) & CAD Like CATIA, Imageware, UG NX, Solid Works etc. In our infrastructure, we have Blue Light Scanner from STEINBICHLER with an accuracy of 10 mocrons per meter. Additionally, Photogrammetry System  for greater accuracy is also available.</p><BR>
 
-                    <h2>Blue Light Scanning</h2>
-                    <p style=" font-family: 'Snippet', sans-serif;color:black;">Innovative 3D blue light 3D scanners (also known as structured-light 3D scanners) that capture a digital 3D scan of a physical object in seconds. Blue light 3D scanners offer the following advantages over laser scanners. Faster scan times produce dense and accurate data Higher detail levels takes the full view of the object with full field scanning Safe for people, even to the naked eye.</p>
-                    <p style=" font-family: 'Snippet', sans-serif;color:black;">We have provided solutions & services in a variety of industries: Automobile, Automotive Lighting & medical etc. We provide best precision measurements through: <br/><b>CMM- Model No.- HERA 10.07.07</b> <br>having measurement Volume upto:<br/>1000mm X 700mmX 700mm<br/>At : <b>CMM FACILITY, Sec- 88, phase-II, Noida.</b></p><BR>
-                    <figure class="img-polaroid"><img src="img/ss1.jpg" alt=""></figure>
-                    <figure class="img-polaroid"><img src="img/ss5.jpg" alt=""></figure>
-                    <figure class="img-polaroid"><img src="img/ss2.jpg" alt=""></figure>
-                    <figure class="img-polaroid"><img src="img/ss3.jpg" alt=""></figure>
-                    <figure class="img-polaroid"><img src="img/ss4.jpg" alt=""></figure>
+                <h2>Blue Light Scanning</h2>
+                <p style=" font-family: 'Snippet', sans-serif;color:black;">Innovative 3D blue light 3D scanners (also known as structured-light 3D scanners) that capture a digital 3D scan of a physical object in seconds. Blue light 3D scanners offer the following advantages over laser scanners. Faster scan times produce dense and accurate data Higher detail levels takes the full view of the object with full field scanning Safe for people, even to the naked eye.</p>
+                <p style=" font-family: 'Snippet', sans-serif;color:black;">We have provided solutions & services in a variety of industries: Automobile, Automotive Lighting & medical etc. We provide best precision measurements through: <br/><b>CMM- Model No.- HERA 10.07.07</b> <br>having measurement Volume upto:<br/>1000mm X 700mmX 700mm<br/>At : <b>CMM FACILITY, Sec- 88, phase-II, Noida.</b></p><BR/>
+                <div class="slider">
+                  <div class="camera_wrap">
+                    <div data-src="img/picture1.jpg"></div>
+                    <div data-src="img/picture2.jpg"></div>
+                    <div data-src="img/picture3.jpg"></div>
+                    <div data-src="img/picture4.jpg"></div>
+                    <div data-src="img/picture5.jpg"></div>
+                    <div data-src="img/picture6.jpg"></div>
+                    <div data-src="img/picture7.jpg"></div>
+                    <div data-src="img/picture8.jpg"></div>
                   </div>
-
-                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4">
-                  <h2 class="pad_top1">Services</h2>
-                  <hr class="line2">
-                  <ul class="list2">
-                      <li><a href="scan.html">3D SCANNING</a></li>
-                      <li><a href="model.html">3D MODELING</a></li>
-                      <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
-                      <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
-                      <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
-                      <li><a href="tool.html">TOOL DESIGN</a></li>
-                      <li><a href="concept.html">CONCEPT DESIGN</a></li>
-                      <li><a href="cnc.html">CNC JOB WORK</a></li>
-                  </ul>
-                  <hr class="line2">
-                  <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
                 </div>
+              </div>
+
+              <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4">
+                <h2 class="pad_top1">Services</h2>
+                <hr class="line2">
+                <ul class="list2">
+                  <li><a href="med.html">Medical Parts Design</a></li>
+                  <li><a href="scan.html">3D SCANNING</a></li>
+                  <li><a href="model.html">3D MODELING</a></li>
+                  <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
+                  <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
+                  <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
+                  <li><a href="tool.html">TOOL DESIGN</a></li>
+                  <li><a href="concept.html">CONCEPT DESIGN</a></li>
+                  <li><a href="cnc.html">CNC JOB WORK</a></li>
+                </ul>
+                <hr class="line2">
+                <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
+              </div>
 
             </div>
+          </div>
         </div>
-    </div>
-</div>
-<!--==============================footer=================================-->
-<footer>
-    <div class="container">
-        <div class="row">
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <ul class="social_icons clearfix">
-                     <li><a href="#"><img src="img/follow_icon1.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon2.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon3.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon4.png" alt=""></a></li>
-                </ul>
+              <ul class="social_icons clearfix">
+                <li><a href="https://www.facebook.com/innovative3dsolutions/" class="btn-social btn-outline fa-inverse">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span></a>
+                </li>
+                <li><a href="https://in.linkedin.com/in/pratap-singh-45967a52" class="btn-social btn-outline fa-inverse">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                  </span></a>
+                </li>
+                <li><a href="https://plus.google.com/100676107265227424238" class="btn-social btn-outline fa-inverse">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x"></i>
+                  </span></a>
+                </li>
+              </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 footerlogo footercol">
-                <a class="smalllogo2 logo" href="index.html"><img src="img/logofooter.png" alt=""></a>
+              <a class="smalllogo2 logo" href="index.html"><img src="img/logofooter.png" alt=""></a>
+              <p class="footerpriv">&copy; 2016 &bull; Innovative 3D Solutions</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <p class="footerpriv">&copy; 2016 &bull; <a class="privacylink" href="index.html">Innovative 3D Solutions</a></p>
+              <a href="//coredox.github.io">
+                <p class="footerpriv">Website By <span class="fa-stack fa-lg">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-link fa-stack-1x"></i>
+                </span> Corédox</p>
+
+              </div>
             </div>
-        </div>
-    </div>
-</footer>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/tm-scripts.js"></script>
-</body>
-</html>
+          </div>
+        </footer>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/tm-scripts.js"></script>
+      </body>
+      </html>

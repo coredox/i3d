@@ -11,7 +11,14 @@
     <meta name="author" content="heisGarvit@gmail.com">
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <style>@font-face {
+      font-family: 'Snippet';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Snippet'), url(//fonts.gstatic.com/s/snippet/v6/bkBpjFHXbzobTARQtiigvA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    }</style>
 	<script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
     <script src="js/superfish.js"></script>
@@ -53,30 +60,33 @@
 </header>
 <!--==============================content=================================-->
 <div id="content">
-    <!--==============================row10=================================-->
     <div class="row_10">
+
         <div class="container">
+
+          
           <div class="row block-404">
-            <div class="col-lg-7 col-md-7 col-sm-7">
-                <figure class="img-polaroid"><img src="img/404.jpg" alt=""></figure>
-            </div>
-            <div class="col-lg-3 col-md-5 col-sm-5 forminfo">
-                <div>
-                    <h2 class="title404_1">Sorry!</h2>
-                    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-                    <h2 class="title404_1">Our Services</h2>
-                    <ul class="list2">
-                        <li><a href="scan.html">3D SCANNING</a></li>
-                        <li><a href="model.html">3D MODELING</a></li>
-                        <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
-                        <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
-                        <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
-                        <li><a href="tool.html">TOOL DESIGN</a></li>
-                        <li><a href="concept.html">CONCEPT DESIGN</a></li>
-                        <li><a href="cnc.html">CNC JOB WORK</a></li>
-                        <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
-                    </ul>
-                </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 reserve_table" style="text-align:justify;">
+                <figure class="img-polaroid"><img src="img/404.jpg" alt="404 Page not found"></figure>
+              </div>
+
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4">
+              <h2 class="pad_top1">Our Services</h2>
+              <hr class="line2">
+              <ul class="list2">
+                <li><a href="med.html">MEDICAL PART DESIGN</a></li>
+                  <li><a href="scan.html">3D SCANNING</a></li>
+                  <li><a href="model.html">3D MODELING</a></li>
+                  <li><a href="inspection.html">2D & 3D INSPECTION</a></li>
+                  <li><a href="reverse.html">REVERSE ENGINEERING</a></li>
+                  <li><a href="surface.html">CLASS 'A' SURFACING</a></li>
+                  <li><a href="tool.html">TOOL DESIGN</a></li>
+                  <li><a href="concept.html">CONCEPT DESIGN</a></li>
+                  <li><a href="cnc.html">CNC JOB WORK</a></li>
+              </ul>
+              <hr class="line2">
+              <a href="reach.html" class="btn-link btn-link2">Contact Us<span></span></a>
+
             </div>
           </div>
         </div>
@@ -86,23 +96,20 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <ul class="social_icons clearfix">
-                     <li><a href="#"><img src="img/follow_icon1.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon2.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon3.png" alt=""></a></li>
-                     <li><a href="#"><img src="img/follow_icon4.png" alt=""></a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 footerlogo footercol">
-                <a class="smalllogo2 logo" href="index.html"><img src="img/logofooter.png" alt=""></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 footercol">
-                <p class="footerpriv">&copy; 2016 &bull; Innovative 3D Solutions</p>
-            </div>
+          <a class="smalllogo2 logo" href="index.html"><img src="img/logo.png" alt=""><span class="title1" style="font-family: 'Snippet', sans-serif;color:white;">Innovative 3D Solutions</span></a>
+          <div class="fb-like" data-href="http://www.facebook.com/innovative3dsolutions/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
         </div>
     </div>
 </footer>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
 </body>
