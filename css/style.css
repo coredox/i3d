@@ -107,7 +107,7 @@ h3 {
 	padding: 20px 0 24px;
 	margin: 0;
 	width: 50px;
-	
+
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
@@ -1411,7 +1411,7 @@ footer {
 	color: #f2eee5;
 	text-transform: uppercase;
 }
-.footerpriv a:hover {
+.smalllogo2 a:hover {
 	text-decoration: none;
 	color: #eb5368;
 }
